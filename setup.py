@@ -1,13 +1,11 @@
-#!/usr/bin/env python
-
-from setuptools import setup
 from pathlib import Path
+from setuptools import setup
 
 with open(Path(__file__).parent.joinpath("README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="py256colors",
+    name="py256color",
     description="Convert between 256 colors and RGB.",
     long_description=long_description,
     long_description_content_type="text/markdown",
